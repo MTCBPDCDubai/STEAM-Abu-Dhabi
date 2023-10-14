@@ -1,6 +1,6 @@
 import streamlit as lit
 
-img = https://github.com/MTCBPDCDubai/STEAM-Abu-Dhabi/blob/main/MTC%20logo.png
+img = "MTC logo.png"
 
 code_1 = '''
 word = "Hello"

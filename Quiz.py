@@ -1,5 +1,7 @@
 import streamlit as lit
 
+img = https://github.com/MTCBPDCDubai/STEAM-Abu-Dhabi/blob/main/MTC%20logo.png
+
 code_1 = '''
 word = "Hello"
 new_word = word[::-1]
@@ -81,6 +83,7 @@ page = getattr(lit.session_state, "page", list(pages.keys())[0])
 
 if page == "STEAM@Abu Dhabi":
     lit.title("Welcome to the MTC Exhibit!")
+    lit.image(img, use_column_width=False, width=200)
     lit.write("Complete this simple programming-based quiz to win this challenge!")
     lit.subheader("How To Complete This Quiz")
     lit.write("Each of the pages has a code snippet in Python. Analyse the given code and type in the output of the code exactly as it would be printed. You can start by going to any of the questions in the sidebar. Good luck!")

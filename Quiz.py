@@ -82,12 +82,12 @@ for page_name, page_title in pages.items():
 page = getattr(lit.session_state, "page", list(pages.keys())[0])
 
 if page == "STEAM@Abu Dhabi":
-    lit.title("Welcome to the MTC Exhibit!")
+    lit.title("Welcome to the MTC Exhibit! :wave:")
     lit.image(img, use_column_width=False, width=200)
-    lit.write("Complete this simple programming-based quiz to win this challenge!")
-    lit.subheader("How To Complete This Quiz")
+    lit.write("Complete this simple programming-based quiz to win this challenge! :confetti_ball:")
+    lit.subheader("How To Complete This Quiz :thinking_face:")
     lit.write("Each of the pages has a code snippet in Python. Analyse the given code and type in the output of the code exactly as it would be printed. You can start by going to any of the questions in the sidebar. Good luck!")
-    lit.subheader("If You Don't Know Programming...")
+    lit.subheader("If You Don't Know Programming... :hugging_face:")
     lit.write("Don't worry! Python is a super-readable and beginner-friendly programming language, so try to treat this quiz as your first encounter with programming logic! Feel free to take your friend's help or running these codes on an online interpreter and figure the answers out later!")
 
 if page == "Question 1":
